@@ -20,6 +20,12 @@
         android:theme="@style/Theme.QRScannerAndGenerator"
         tools:targetApi="31">
         <activity
+            android:name=".ScanQRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GenerateQRActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
