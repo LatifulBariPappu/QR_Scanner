@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.example.qrscannerandgenerator'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.qrscannerandgenerator"
-        minSdk 18
-        targetSdk 33
+        minSdk 21
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
